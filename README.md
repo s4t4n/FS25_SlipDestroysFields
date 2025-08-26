@@ -17,45 +17,6 @@ The following options are available:
 
   - When the ground is destroyed, the status of the respective field changes to " Cultivated". This is visually represented by the cultivator texture and particles behind the wheels.
   - At the end of this readme file and in the files SlipDestroysFields.lua/registerSlipDestroysFields.lua you can find a tutorial for customising the strengths.
-  - If you have any questions, requests or problems, please feel free to contact the following email: SlipDestroysFields@web.de
-
-
-# Changelog
-Info: If you have edited the mod yourself, you will have to edit it again after an update.
- 
-Changelog Version 1.0.0.1:
-- Removed unwanted debug text that appeared with additional wheels and slip
-- Added particles when the wheel is turned with slip
-- Added the ability to set in the game settings whether a flashing text indicates when the soil is being destroyed
-- Added a notification that shows when settings have been changed
-- Multiplayer problems fixed
-- Dedicated server problems fixed
-- REA_gui display problems fixed 
-- General small problems in combination with REA-Mod fixed
-
-Changelog Version 1.0.0.2:
-- Dedicated server problems (Lua callstack) fixed. Sorry!
-- Description adapted
-- Russian translation added
-- Fixed problems where the ground outside the field was destroyed
-
-Changelog Version 1.0.0.3:
-- Added that in the game settings it can be set whether the edge of the field should also be destroyed or only the areas where there is actually farmland
-- Problems with mod "UNIMOG U1200, U1400, U1600" fixed
-- Error "has unknown specialization" fixed
-- Game does not load with Hof Bergmann Beta Map fixed
-- Added that in the game settings it can be set whether every field or only the own field can be destroyed
-- Fixed an issue where the ground was not destroyed when driving backwards
-
-Changelog Version 1.0.0.4:
-- Stones no longer appear when a wheel slips
-
-Changelog Version 1.0.0.5:
-- Fixed a problem where the slip settings were reset when the settings were reopened
-- Sinking now destroys the ground (the depth at which the field is destroyed can be set in the game settings)
-
-Changelog version 1.0.0.6:
-- Polish translation added
 
 
 # Tutorial
