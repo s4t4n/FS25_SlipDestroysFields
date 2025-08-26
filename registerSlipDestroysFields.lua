@@ -250,8 +250,8 @@ end
 TypeManager.finalizeTypes = Utils.appendedFunction(TypeManager.finalizeTypes, registerSlipDestroysFields.registerSpecialization)
 
 function init()
-	InGameMenuGameSettingsFrame.onFrameOpen = Utils.appendedFunction(InGameMenuGameSettingsFrame.onFrameOpen, registerSlipDestroysFields.installGUI)
-    InGameMenuGameSettingsFrame.updateGameSettings = Utils.appendedFunction(InGameMenuGameSettingsFrame.updateGameSettings, registerSlipDestroysFields.updateSlipDestroysFieldsGui)	
+	-- InGameMenuGameSettingsFrame.onFrameOpen = Utils.appendedFunction(InGameMenuGameSettingsFrame.onFrameOpen, registerSlipDestroysFields.installGUI)
+    -- InGameMenuGameSettingsFrame.updateGameSettings = Utils.appendedFunction(InGameMenuGameSettingsFrame.updateGameSettings, registerSlipDestroysFields.updateSlipDestroysFieldsGui)	
 end
 
 
